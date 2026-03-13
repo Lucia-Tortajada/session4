@@ -147,11 +147,10 @@ Connect to your EC2 instance and modify the Docker Compose configuration to run 
 
 ### Instructions
 
-1. **Connect to EC2 via SSH**
+1. **Connect to EC2 via AWS Console**
 
-   ```bash
-   ssh -i your-key.pem ec2-user@<EC2-PUBLIC-IP>
-   ```
+  Use the button 'Connect' in the EC2 dashboard to open a terminal session directly in your browser. This allows you to manage the instance without needing SSH keys.
+
 2. **Navigate to the application directory**
 
    ```bash
